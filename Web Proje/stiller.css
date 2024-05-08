@@ -1,0 +1,99 @@
+/*  giriş sayfa başlangıç*/
+#ilksayfa{
+
+    background-color: aquamarine;
+    background: url(https://www.kulturportali.gov.tr/contents/images/05022013_a4300353-f24e-41c5-ae6b-9a249a68380a.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+#ilksayfa #kisimlar{
+    
+    background-color:peru;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    padding:  0 10%;
+}
+#ilksayfa ul{
+    float:right;
+    margin-right: 30px;
+    
+}
+#kisimlar ul li{
+
+display: inline-block;
+margin-top: 10px;
+margin-right: 10px;
+margin-left: 10px;
+user-select: none;
+}
+#kisimlar ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    padding-right: 7px;
+    border-style:groove;
+    border-color:black;
+}
+#ilksayfa #giriş {
+    position: absolute;
+    top:75%;
+    left:75%;
+    transform: translate(-50%,-80%);
+    user-select: none;
+    background-color:#fff2be;
+    border-radius: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+label{
+    font-size: 25px;
+    font-style:inherit;
+    font-weight: bold;
+    
+}
+#name{
+    padding-left: 10px;
+     padding-right: 10px;
+}
+h2{
+    text-align: center;
+    color:#EF7E6D;
+}
+button{
+    text-align: center;
+    color:blue;
+}
+#ilksayfa #yazi{
+    position: absolute;
+    top:58%;
+    left:25%;
+    transform: translate(-50%,-50%);
+    font-size: 27px; 
+    background-color:#fff2be;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    border-radius:20px ;
+    user-select: none;
+}
+h1{
+    color:#EF7E6D;
+    text-align: center;
+}
+/*  giriş sayfa son */
+/*  yaşadığım şehir  başlangıç*/
+p{
+padding-left: 60px;
+padding-right: 60px;
+font-size: 25px;
+}
+#slider{
+    padding-left: 500px;
+    width: 100%;
+    height: 100vh;
+}
+#ilkbaşlik{
+    color: blue;
+}
